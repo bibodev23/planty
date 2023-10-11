@@ -1,0 +1,112 @@
+#outer-wrap {
+    background-color: #E5E5E5;
+}
+#wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+#site-header-inner {
+    padding-left: 30px;
+}
+
+#menu-principal a span{
+	font-size: 16px;
+}
+
+#menu-item-72 {
+	background: #DC9F96;
+	width: 235px;
+	display: flex;
+	justify-content:center;
+	box-sizing:border-box;
+}
+#menu-item-72:hover{
+	background: #C02E44;
+}
+
+#menu-item-72 a span {
+	color: white;
+}
+
+#menu-item-73 a span:hover {
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+    transform: scaleX(-3px) scaleY(10px);
+}
+
+
+.home_page {
+	display: flex;
+	justify-content: center;
+}
+	
+.home_header {
+	padding: 100px 0 0px;
+    background-color: #ECE2DA;
+    border-radius: 0px 0px 196px 197px / 0px 0px 34px 34px;
+    box-shadow: 0px 5px 10px -3px #5f5c59;
+}
+
+
+.home_header .margin0Auto {
+	margin: 0 auto;
+}
+
+.wp-container-9, .home_les_gouts {
+	padding: 50px;
+}
+.wp-container-19 {
+	margin:20px 0;
+	display:flex;
+	justify-content: center;
+}
+
+.wp-container-26 {
+	padding: 100px;
+}
+
+.wp-container-41 {
+	padding: 0 50px;
+}
+
+.wp-container-24 {
+    margin: 100px 0;
+}
+
+.les_gouts {
+    padding: 50px 0;
+    background-color: #ECE2DA;
+    border-radius: 0px 0px 196px 197px / 0px 0px 15px 15px;
+}
+
+.les_gouts h2 {
+    margin: 0;
+}
+
+.wp-block-button__link {
+    background-color: #E0B9B4;
+    max-width: 198px;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wp-block-button__link:hover {
+    background-color: #C02E44;
+    color: white;
+}
+
+.wp-container-37 {
+    display: flex;
+    justify-content: center;
+}
+
+.wp-container-43 .bottom_image {
+    margin-top: 100px;
+    }
