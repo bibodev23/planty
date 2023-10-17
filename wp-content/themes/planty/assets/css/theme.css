@@ -1,0 +1,45 @@
+@import 'home.css';
+@import 'contact.css';
+@import 'command.css';
+
+#outer-wrap {
+    background-color: #E5E5E5;
+}
+#wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+#site-header-inner {
+    padding-left: 30px;
+}
+
+#menu-principal a span{
+	font-size: 16px;
+}
+
+#menu-item-72 {
+	background: #DC9F96;
+	width: 235px;
+	display: flex;
+	justify-content:center;
+	box-sizing:border-box;
+}
+#menu-item-72:hover{
+	background: #C02E44;
+}
+
+#menu-item-72 a span {
+	color: white;
+}
+
+#menu-item-73 a span:hover {
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+    transform: scaleX(-3px) scaleY(10px);
+}
+
+

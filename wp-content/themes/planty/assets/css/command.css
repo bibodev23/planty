@@ -1,0 +1,244 @@
+.commander {
+    margin-bottom: 20px;
+}
+
+.commander h2 {
+    margin: 50px auto;
+}
+
+.formulaire {
+    width: 860px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.formulaire h3 {
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0;
+}
+.formulaire .ligne_horizontale {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background: white;
+}
+
+.formulaire .nos_produits {
+    margin:30px 0;
+}
+
+.formulaire .liste_produits {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.formulaire .liste_produits .produit {
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.formulaire .liste_produits .produit .titre_image{
+    position: relative;
+    height: 128px;
+    box-sizing: border-box;
+}
+
+.formulaire .liste_produits h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    width: 80%;
+  }
+
+  .formulaire .liste_produits .produit_framboise h3 {
+    width: 60%;
+  }
+
+  .formulaire .liste_produits .quantite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 55px;
+    overflow: hidden;
+  } 
+
+  .formulaire .liste_produits .quantite .input_boutons {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 82px;
+    height: 56px;
+    background: white;
+    overflow: hidden;
+  }
+
+  .formulaire p {
+    margin: 0;
+    padding: 0;
+  }
+
+.formulaire .liste_produits .quantite .input {
+    height: 56px;
+    width: 51px;
+}
+
+.formulaire .liste_produits input[type="number"] {
+    font-size: 16px;
+    background: transparent;
+    color: black;
+    padding: 14px 0 0 ;
+    text-align: center;
+    height: 100%; 
+    border: none;
+
+  }
+
+  .formulaire .liste_produits .boutons {
+    height: 100%;
+    width: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulaire .liste_produits .bouton_moins, .bouton_plus {
+    padding: 0; 
+    margin: 0;
+    border: none;
+    cursor: pointer; 
+    color: white;
+    font-size: 10px;
+    width: 31px;
+    height: 28px;
+  }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-input-placeholder {
+  display: none; /* Masquez les boutons incrément/décrément */
+}
+
+.formulaire .liste_produits .ok {
+    background: #E0B9B4;
+    height: 55px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.formulaire .ligne_verticale {
+    height: 100%;
+    width: 1px;
+    margin: 0 auto;
+    border: none;
+    background: white;
+}
+
+
+.formulaire .informations {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 447px;
+    margin: 50px 0 20px;
+    padding: 0;
+}
+/* j'utilise > comme selecteur d'enfant direct  pour center mon bouton*/
+.formulaire > p:last-child {
+    margin: 20px auto 90px;
+
+}
+.formulaire .wpcf7-spinner {
+    display: none;
+}
+
+.formulaire .informations .info, .formulaire .informations .adresse {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.formulaire .wpcf7-text, .wpcf7-textarea {
+    background: white;
+    border-radius: 7px;
+    font-size: 16px;
+    width: 383px;
+    height: 71px;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .formulaire {
+        width: 350px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto !important;
+    }
+
+    .nos_produits {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .liste_produits {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .produit {
+        width: 200px;
+    }
+
+    .produit .input_boutons {
+        width: 100px !important;
+        margin: 0 auto;
+    }
+
+    .formulaire .liste_produits .ok {
+        display: none;
+    }
+
+    .formulaire .informations {
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+        width: 350px !important;
+        gap: 15px;
+    }
+
+    .informations p label span input {
+        width: 300px !important;
+        height: 50px !important;
+    }
+
+    .formulaire > p {
+        position: static;
+    }
+
+    .formulaire .ligne_verticale {
+        display: none;
+    }
+
+}
