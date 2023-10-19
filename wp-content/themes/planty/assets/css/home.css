@@ -50,6 +50,10 @@
     margin-top: 50px;
 }
 
+.energie_des_plantes {
+    margin-bottom: 50px;
+}
+
 .les_gouts {
     padding: 50px 0;
     background-color: #ECE2DA;
@@ -161,6 +165,7 @@
         text-align-last: center;
         width: 350px !important;
         margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .energie_des_plantes br {
@@ -176,6 +181,10 @@
         width: 300px;
         margin: 0 auto;
         border-radius: 5px;
+    }
+
+    .colonne_gouts {
+        gap: 0;
     }
 
     .wp-container-19,
@@ -281,6 +290,15 @@
         width: 380px;
     }
 
+    .colonne_gouts {
+        gap: 0;
+    }
+
+    .wp-block-button__link {
+        width: 400px !important;
+        margin: 0 auto;
+    }
+
     .les_avis {
         padding-bottom: 650px !important;
     }
@@ -317,8 +335,15 @@
     }
 }
 
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    #site-header-inner {
+        padding-right: 30px;
+    }
+
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    
+
     .home_header {
         padding: 0;
         margin: 0;
@@ -348,6 +373,7 @@
         text-align-last: center;
         width: 350px !important;
         margin: 0 auto;
+        margin-bottom: 30px;
     }
 
     .energie_des_plantes br {
@@ -355,8 +381,12 @@
     }
 
     .les_gouts_titre {
-        width: 350px !important;
+        width: 300px !important;
         margin: 0 auto !important;
+    }
+
+    .colonne_gouts {
+        gap: 0;
     }
 
     .les_gouts img {
@@ -364,6 +394,7 @@
         margin: 0 auto;
         border-radius: 5px;
     }
+
 
     .wp-container-19,
     .wp-container-11 {
