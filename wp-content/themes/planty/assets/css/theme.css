@@ -42,4 +42,16 @@
     transform: scaleX(-3px) scaleY(10px);
 }
 
+.lien_admin a {
+	font-family: 'Syne';
+	font-size: 16px !important;
+	transition: none !important;
+}
+
+.lien_admin a:hover {
+	font-family: 'Syne';
+	font-size: 13px !important;
+	font-weight: 700;
+}
+
 

@@ -1,6 +1,7 @@
 .home_page {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .home_header {
@@ -26,7 +27,8 @@
 }
 
 .wp-container-9,
-.home_les_gouts {
+.home_les_gouts,
+.wp-container-23 {
     padding: 50px;
 }
 
@@ -34,10 +36,6 @@
     margin: 20px 0;
     display: flex;
     justify-content: center;
-}
-
-.wp-container-26 {
-    padding: 100px;
 }
 
 .wp-container-41 {
@@ -48,14 +46,24 @@
     margin: 100px 0;
 }
 
+.wp-container-8 h3 {
+    margin-top: 50px;
+}
+
 .les_gouts {
     padding: 50px 0;
     background-color: #ECE2DA;
     border-radius: 0px 0px 196px 197px / 0px 0px 15px 15px;
+
 }
 
 .les_gouts h2 {
     margin: 0;
+}
+
+.wp-container-18 {
+    display: flex;
+    justify-content: center;
 }
 
 .wp-block-button__link {
@@ -78,10 +86,48 @@
     justify-content: center;
 }
 
-.wp-container-43 .bottom_image {
-    margin-top: 100px;
+.les_avis {
+    background-image: url('../images/Group5.png');
+    background-position: calc(50% + 0px)100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    padding-bottom: 100px !important;
 }
 
+.wp-container-36 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+
+}
+
+.wp-container-36 .is-vertically-aligned-center {
+    width: 343px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.wp-container-36 .is-vertically-aligned-center figure {
+    width: 128px !important;
+    height: 139px !important;
+}
+
+.wp-container-36 .is-vertically-aligned-center h2 {
+    width: 160px;
+    margin: 0;
+    padding: 0;
+}
+
+.wp-container-36 .is-vertically-aligned-center p {
+    width: 190px !important;
+    height: 57px;
+    margin: 0;
+    padding: 0;
+}
 
 
 @media screen and (max-width: 480px) {
@@ -90,6 +136,7 @@
         padding: 0;
         margin: 0;
     }
+
     .home_header h2 {
         box-sizing: border-box;
         font-size: 16px !important;
@@ -108,6 +155,7 @@
         box-sizing: border-box;
         width: 380px;
     }
+
     .energie_des_plantes {
         text-align: justify;
         text-align-last: center;
@@ -119,17 +167,25 @@
         display: none;
     }
 
+    .les_gouts_titre {
+        width: 350px !important;
+        margin: 0 auto;
+    }
+
     .les_gouts img {
         width: 300px;
         margin: 0 auto;
         border-radius: 5px;
     }
 
-    .wp-container-19, .wp-container-11 {
+    .wp-container-19,
+    .wp-container-11 {
         width: 380px;
         margin: 0 auto;
     }
-    .wp-container-14, .wp-container-17 {
+
+    .wp-container-14,
+    .wp-container-17 {
         padding: 0;
         max-width: fit-content;
         height: fit-content;
@@ -139,11 +195,13 @@
         gap: 0;
     }
 
-    .wp-container-14 .wp-block-column, .wp-container-17 .wp-block-column {
+    .wp-container-14 .wp-block-column,
+    .wp-container-17 .wp-block-column {
         height: fit-content;
     }
 
-    .wp-container-14 .wp-block-column figure, .wp-container-17 .wp-block-column figure {
+    .wp-container-14 .wp-block-column figure,
+    .wp-container-17 .wp-block-column figure {
         margin: 10px auto;
         padding: 0;
         height: fit-content;
@@ -154,30 +212,230 @@
         margin: 20px auto 10px;
     }
 
-    .wp-container-20 .wp-block-button {
+    .wp-container-19 .wp-block-button {
         width: 190px !important;
         margin-top: 15px;
     }
 
-    .wp-container-24 {
-        margin: 40px auto 10px;
-        padding: 0;
+    .les_avis {
+        padding-bottom: 650px !important;
     }
-
-    .wp-container-39 {
+    .avis_display, .avis_container, .avis_content{
         width: 350px !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+
+    .avis_display .avis_content {
+        display: flex;
+        flex-direction: row;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .avis_display img {
+        max-width: 60px;
         margin: 0 auto;
-        padding: 0;
-        position: relative;
     }
 
-    .wp-container-39 img {
-       max-width: 60px;
-       border: 1px solid red;
+    .avis_content h2 {
+        font-size: 20px !important;
     }
 
-    .wp-container-27 {
+    .avis_content p {
+        font-size: 16px;
+    }
+
+    .avis_display .is-layout-flow {
         margin: 0;
         padding: 0;
+        height: 120px;
+    }
+
+    .avis_titre{
+        font-size: 16px !important;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    #site-header-inner {
+        padding-right: 30px;
+    }
+
+    .home_header h2 {
+        font-size: 26px !important;
+        width: 70% !important;
+        margin: 0 auto;
+    }
+
+    .home_background {
+        margin: 0 auto;
+        height: 300px;
+        background-image: url('../images/Planty6.png'), url('../images/Group4.png'), url('../images/Group3.png');
+        background-position: center center, calc(50% - 70px)70px, calc(50% + 68px)70px;
+        background-repeat: no-repeat;
+        background-size: 160px;
+        box-sizing: border-box;
+        width: 380px;
+    }
+
+    .les_avis {
+        padding-bottom: 650px !important;
+    }
+    .avis_display, .avis_container, .avis_content{
+        width: 350px !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+
+    .avis_display .avis_content {
+        display: flex;
+        flex-direction: row;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .avis_display img {
+        max-width: 70px;
+        margin: 0 auto;
+    }
+
+    .avis_content h2 {
+        font-size: 18px !important;
+    }
+
+    .avis_content p {
+        font-size: 15px;
+    }
+
+    .avis_display .is-layout-flow {
+        margin: 0;
+        padding: 0;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .home_header {
+        padding: 0;
+        margin: 0;
+    }
+
+    .home_header h2 {
+        box-sizing: border-box;
+        font-size: 26px !important;
+        width: 600px;
+        padding: 20px;
+        margin: 20px auto 0;
+    }
+
+    .home_background {
+        margin: 0 auto;
+        height: 500px;
+        background-image: url('../images/Planty6.png'), url('../images/Group4.png'), url('../images/Group3.png');
+        background-position: center center, calc(50% - 75px)172px, calc(50% + 73px)172px;
+        background-repeat: no-repeat;
+        background-size: 200px, 180px, 180px;
+        box-sizing: border-box;
+        width: 380px;
+    }
+
+    .energie_des_plantes {
+        text-align: justify;
+        text-align-last: center;
+        width: 350px !important;
+        margin: 0 auto;
+    }
+
+    .energie_des_plantes br {
+        display: none;
+    }
+
+    .les_gouts_titre {
+        width: 350px !important;
+        margin: 0 auto !important;
+    }
+
+    .les_gouts img {
+        width: 300px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+
+    .wp-container-19,
+    .wp-container-11 {
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    .wp-container-14,
+    .wp-container-17 {
+        padding: 0;
+        max-width: fit-content;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .wp-container-14 .wp-block-column,
+    .wp-container-17 .wp-block-column {
+        height: fit-content;
+    }
+
+    .wp-container-14 .wp-block-column figure,
+    .wp-container-17 .wp-block-column figure {
+        margin: 10px auto;
+        padding: 0;
+        height: fit-content;
+    }
+
+    .wp-container-11 p {
+        width: 300px;
+        margin: 20px auto 10px;
+    }
+
+    .wp-container-19 .wp-block-button {
+        width: 190px !important;
+        margin-top: 15px;
+    }
+
+    .les_avis {
+        padding:0 0 150px!important;
+    }
+    .avis_display, .avis_container{
+        width: 750px !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+
+    .avis_display .avis_content {
+        display: flex;
+        flex-direction: row;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .avis_display img {
+        max-width: 70px;
+        margin: 0 auto;
+    }
+
+    .avis_content h2 {
+        font-size: 18px !important;
+    }
+
+    .avis_content p {
+        font-size: 14px;
+    }
+
+    .avis_display .is-layout-flow {
+        margin: 0;
+        padding: 0;
+        height: 100px;
     }
 }

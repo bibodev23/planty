@@ -52,7 +52,6 @@
     padding: 100px 0 200px;
     background-image: url('../images/Group16.png'), url('../images/Group5.png');
     background-position: calc(50% - 187px)405px, calc(50% + 0px)100%;
-    ;
     background-repeat: no-repeat;
     background-size: 200px, contain;
     margin-bottom: 20px;
@@ -107,11 +106,13 @@
     .contact_header_container {
         padding: 0;
     }
+
     .contact_header_content h2 {
         margin: 0;
         padding: 0;
         font-size: 20px !important;
     }
+
     .contact_header_content p {
         margin: 30px auto 0;
         padding: 0;
@@ -127,22 +128,48 @@
         height: auto;
     }
 
+    .contact_team_container p {
+        padding: 0;
+        margin: 0;
+    }
+
     .contact_team_content {
         height: auto;
     }
 
+    .contact_team_content h2 {
+        margin-bottom: 30px;
+    }
 
     .equipe {
         width: 300px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
+        gap: 10px;
     }
+
     .equipe img {
         max-width: 100px;
     }
 
-    .equipe h3, .equipe p {
+    .equipe h3,
+    .equipe p {
         font-size: 16px;
-    } 
+    }
+
+    .contact_form_content .contact_form p,
+    .contact_form_content .contact_form textarea {
+        width: 300px !important;
+        height: 50px !important;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact_form_container {
+        background-image: url('../images/Group16.png'), url('../images/Group5.png');
+        background-position: calc(50% - 145px)365px, calc(50% + 0px)100%;
+        background-size: 100px, contain;
+    }
 }
