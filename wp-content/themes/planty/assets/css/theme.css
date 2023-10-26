@@ -12,40 +12,60 @@
     background-color: white;
 }
 
-#site-header-inner {
-    padding-left: 30px;
+#site-header {
+	padding-left: 30px;
+	max-height: 68px !important;
 }
 
 #menu-principal a span{
 	font-size: 16px;
+	font-weight: 400;
 }
-
 #menu-item-72 {
 	background: #DC9F96;
-	width: 235px;
+	width: 234px;
+	height: 71px;
 	display: flex;
-	justify-content:center;
-	box-sizing:border-box;
 }
 #menu-item-72:hover{
 	background: #C02E44;
 }
+#menu-item-72 a{
+	width: 94%;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
 
 #menu-item-72 a span {
 	color: white;
+	font-weight: bold;
+	transform: scaleX(-130px);
+}
+
+#menu-item-73 {
+	width: 215px;
+	text-align: center;
 }
 
 #menu-item-73 a span:hover {
 	font-size: 13px;
 	font-weight: bold;
-	color: black;
+	animation: none;
     transform: scaleX(-3px) scaleY(10px);
 }
 
+#menu-item-73 a:focus, #menu-item-73 a:active {
+	border: none !important; 
+	outline: none !important; 
+ }
+
 .lien_admin a {
+	text-align: center;
 	font-family: 'Syne';
 	font-size: 16px !important;
 	transition: none !important;
+	margin-right: 50px;
 }
 
 .lien_admin a:hover {
@@ -53,5 +73,6 @@
 	font-size: 13px !important;
 	font-weight: 700;
 }
+
 
 

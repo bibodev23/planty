@@ -1,5 +1,6 @@
 .commander {
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .commander h2 {
@@ -346,6 +347,81 @@ input[type="number"]::-webkit-input-placeholder {
 
     .informations p label span input {
         width: 450px !important;
+        height: 50px !important;
+    }
+
+    .formulaire>p {
+        position: static;
+    }
+
+    .formulaire .ligne_verticale {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .formulaire {
+        width: 350px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto !important;
+    }
+
+    .nos_produits {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .nos_produits h3 {
+        text-align: center;
+    }
+
+    .liste_produits {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .produit {
+        width: 150px;
+        height: 150px !important;
+    }
+
+    .liste_produits .produit h3 {
+        font-size: 16px;
+        width: 120px !important;
+    }
+
+    .liste_produits .produit_framboise h3 {
+        font-size: 16px;
+        width: 90px !important;
+    }
+
+    .liste_produits .produit .input_boutons {
+        width: 100px !important;
+        margin: 0 auto;
+        border-radius: 10px !important;
+        overflow: hidden;
+    }
+
+    .formulaire .liste_produits .ok {
+        display: none;
+    }
+
+    .formulaire .informations {
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+        width: 350px !important;
+        gap: 15px;
+    }
+
+    .informations p label span input {
+        width: 300px !important;
         height: 50px !important;
     }
 
