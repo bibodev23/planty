@@ -18,7 +18,7 @@
 }
 
 #menu-principal a span{
-	font-size: 16px;
+	font-size: 16px !important;
 	font-weight: 400;
 }
 #menu-item-72 {
@@ -40,7 +40,8 @@
 #menu-item-72 a span {
 	color: white;
 	font-weight: bold;
-	transform: scaleX(-130px);
+	transform: scaleX(1.3);
+	font-size: 12px !important;
 }
 
 #menu-item-73 {
@@ -52,7 +53,7 @@
 	font-size: 13px;
 	font-weight: bold;
 	animation: none;
-    transform: scaleX(-3px) scaleY(10px);
+    transform: scaleX(0.7) scaleY(1);
 }
 
 #menu-item-73 a:focus, #menu-item-73 a:active {
