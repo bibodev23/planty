@@ -50,7 +50,7 @@
 }
 
 #menu-item-73 a span:hover {
-	font-size: 13px;
+	font-size: 13px !important;
 	font-weight: bold;
 	animation: none;
     transform: scaleX(0.7) scaleY(1);
